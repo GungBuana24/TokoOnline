@@ -1,0 +1,137 @@
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar span {
+    color: red;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(foto/shoes.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero .title h1 span {
+    font-weight: bolder;
+    font-size: 55px;
+    color: #1a2226;
+}
+.hero .title {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #1a2226;
+}
+nav .navbar-brand {
+    font-weight: bolder;
+}
+.hero .title button {
+    width: 110px;
+}
+h3 {
+    font-weight: bolder;
+    font-size: 55px;
+    color: #1a2226;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+h5 {
+    font-weight: bolder;
+}
+.card {
+    margin-bottom: 20px;
+    margin-top:10px;
+}
+nav.container-fluid{
+    text-align: center;
+}
+.about {
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #1a2226;
+}
+.about img {
+    height: auto;
+    width: 420px;
+}
+.about text{
+    width: 550px;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1 {
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5 {
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.about-text h5 span{
+color: red;
+}
+.about-text p {
+    color: azure;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}.contact {
+    padding-top: 7%;
+}
+.row.single-form {
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0,0.5);
+}
+.left {
+    background-image: url(foto/contact.jpg);
+    padding: 200px 100px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.left h2{
+    font-family: roboto;
+    color: azure;
+    font-weight: 700;
+    font-size: 45px;
+}
+.left h2 span {
+    font-weight: 100;
+}
+.right {
+    padding: 70px 100px;
+    position: relative;
+}
+.form-control {
+    border: 2px solid #1a2226;
+}
+.right button {
+    border: none;
+    border-radius: 0;
+    width: 180px;
+    color: azure;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.right button :hover {
+    background-color: #1a2226;
+}

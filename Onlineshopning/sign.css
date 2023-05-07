@@ -1,0 +1,63 @@
+/* login&register */
+body{
+    background-image: url(foto/shoes.jpg);
+    background-size: cover;
+}
+.global-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1a2226;
+}
+.login-form {
+    margin-top: 80px;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background-color: transparent ! important;
+    border-radius: 10px ! important;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    background: #1a2226;
+    color: azure;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus{
+outline: none;
+border: none;
+background: #1a2226;
+color: azure;
+margin: 0;
+}
+.card-title {
+    font-weight: 900;
+    padding-top: 30px;
+}
+.btn {
+    background: #1a2226 ! important;
+    color: azure ! important;
+    transform: translate(10px);
+    font-size: 14px;
+    border-radius: 10px ! important;
+    width: 50%;
+    margin-left:95px;
+
+    
+}
+.regis{
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.btn-group {
+    width: 100px;
+    text-decoration: none;
+    color: azure;
+}
